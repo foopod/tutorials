@@ -86,3 +86,6 @@ Scroll down to the Github pages section an change the sources from `None` to the
 
 ![](img4.png)
 
+And thats it! You are done!
+
+Now you can browse to `http://yourUsername.github.io/yourRepositoryName` to see your live site.
