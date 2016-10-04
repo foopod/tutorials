@@ -8,30 +8,35 @@
 
 Go to [http://github.com](http://github.com) and create an account. You will need to verify your account using your email address.
 
-##Making your first repository
+##Making your first repository (repo)
 
-Go to [https://github.com/new](https://github.com/new) or click the New Repository button. Enter a repository name since we are making a website I named my repository `site`.
+Go to [https://github.com/new](https://github.com/new) or click the New Repository button. 
+
+Let's call our first repository `site`.
 
 ![](img1.png)
 
-Done! Now you have your own repository. 
+You can skip all the other fields here for now. Just click Create repository.
 
 ![](img2.png)
 
-Now that your repo exist on Github you can clone it on your computer. You can do this by taking the link from this page. In my case `https://github.com/foopod/site.git`.
+Done! Now you have your own repository. 
+
+Now that your repo exists on Github you can clone it to your computer. You can do this by taking the link from this page. Somthing like this... `https://github.com/username/site.git`.
 
 Open up Terminal (Mac or Linux) or your Git Shell (Windows).
 
-`foo$ git clone https://github.com/foopod/site.git`
+`git clone https://github.com/username/site.git`
 
 This will clone your repo to your computer.
 
 ```
-foo$ git clone https://github.com/foopod/site.git
 Cloning into 'site'...
 warning: You appear to have cloned an empty repository.
 Checking connectivity... done.
 ```
+
+You should get a warning like above telling you that there is nothing in your repository yet.
 
 ##Setting up your first HTML Page
 
@@ -39,7 +44,7 @@ Now to make your first page.
 
 Make a file in your site folder (this is your repository) named `index.html`.
 
-And put the below code into it and save it (this will be the skeleton of your page).
+Put the below code into it and save it (this will be the skeleton of your page).
 
 ```
 <html>
@@ -58,11 +63,11 @@ Now that you have made changes in your repository you will want them to also be 
 
 You can do that by running the following commands from your repository folder.
 
-`foo$ git add index.html` - So that Git knows that it add the file to the next commit
+`git add index.html` - Adding files to the next commit
 
-`foo$ git commit -m "Add index.html"` - Committing your files. Note that -m is to add a message so you can easily keep track of the changes that you made.
+`git commit -m "Add index.html"` - Committing your files. Note that -m is to add a message so you can easily keep track of the changes that you made.
 
-`foo$ git push` - Pushes all your changes to Github.
+`git push` - Pushes all your changes to Github.
 
 The command line will let you know everything was successful with an output that looks something like this...
 
@@ -88,4 +93,4 @@ Scroll down to the Github pages section an change the sources from `None` to the
 
 And thats it! You are done!
 
-Now you can browse to `http://yourUsername.github.io/yourRepositoryName` to see your live site.
+Now you can browse to `http://yourUsername.github.io/site` to see your live site.
