@@ -1,12 +1,14 @@
 #Setting up your first website on Github
 
-#Requirements
+##Requirements
 + Git (preinstalled on Mac)
 + An email address
+
 
 ##Make a Github Account
 
 Go to [http://github.com](http://github.com) and create an account. You will need to verify your account using your email address.
+
 
 ##Making your first repository (repo)
 
@@ -38,6 +40,7 @@ Checking connectivity... done.
 
 You should get a warning like above telling you that there is nothing in your repository yet.
 
+
 ##Setting up your first HTML Page
 
 Now to make your first page.
@@ -56,6 +59,7 @@ Put the below code into it and save it (this will be the skeleton of your page).
     </body>
 </html>
 ```
+
 
 ##Committing your first code
 
@@ -80,6 +84,7 @@ Total 5 (delta 0), reused 0 (delta 0)
 To https://github.com/foopod/site.git
    068a887..4cafc5c  master -> master
 ```
+
 
 ##Setting up Github Pages (Putting your site online)
 
