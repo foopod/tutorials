@@ -69,6 +69,10 @@ You can do that by running the following commands from your repository folder.
 
 `git add index.html` - Adding files to the next commit
 
+or
+
+`git add -A` - To commit everything
+
 `git commit -m "Add index.html"` - Committing your files. Note that -m is to add a message so you can easily keep track of the changes that you made.
 
 `git push` - Pushes all your changes to Github.
