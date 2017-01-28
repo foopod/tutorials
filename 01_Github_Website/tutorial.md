@@ -40,12 +40,14 @@ Checking connectivity... done.
 
 You should get a warning like above telling you that there is nothing in your repository yet.
 
+And now the `site` folder will be on your computer to muck around with.
+
 
 ## Setting up your first HTML Page
 
-Now to make your first page.
+Now its time to make your first page.
 
-Make a file in your site folder (this is your repository) named `index.html`.
+Use a text editor to make a text file in your site folder (this is your repository) named `index.html`.
 
 Put the below code into it and save it (this will be the skeleton of your page).
 
@@ -55,7 +57,7 @@ Put the below code into it and save it (this will be the skeleton of your page).
         <title>Website</title>
     </head>
     <body>
-        <h1>Hellow World!</h1>
+        <h1>Hello World!</h1>
     </body>
 </html>
 ```
